@@ -12,6 +12,7 @@ namespace AcademiaDoZe
 
         private void aluno_Click(object sender, RoutedEventArgs e)
         {
+            
             MainContent.Content = new CadastroAlunosControl();
         }
 

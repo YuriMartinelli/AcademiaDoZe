@@ -37,7 +37,7 @@
         <Button x:Name="instrutores" Grid.Column="3" Content="INSTRUTORES" VerticalAlignment="Top" Height="28" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="72,13,42,0" Click="instrutores_Click"/>
         <Button x:Name="aulas" Grid.Column="4" Content="AULAS" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="114" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" RenderTransformOrigin="1.201,0.609" Grid.ColumnSpan="2" Margin="72,13,0,0" Click="aulas_Click"/>
 
-        <ContentControl x:Name="MainContent" Grid.Row="2" Grid.ColumnSpan="7" Margin="10"/>
+        <ContentControl x:Name="MainContent" Grid.ColumnSpan="7" Margin="10,4,10,0" Grid.RowSpan="7" Grid.Row="1" Foreground="{x:Null}"/>
 
     </Grid>
 </Window>
