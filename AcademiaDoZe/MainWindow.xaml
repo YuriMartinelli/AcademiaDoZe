@@ -27,132 +27,17 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <!-- Cabeçalho -->
         <Rectangle x:Name="rectangle" Grid.ColumnSpan="7" HorizontalAlignment="Left" Height="59" Stroke="White" VerticalAlignment="Top" Width="800" OpacityMask="#FF7100FF" Fill="#FF0090FF"/>
-        <Image Grid.Column="0" Grid.ColumnSpan="7" Margin="10,6,10,0" Source="/SEU ZÉ.png" Stretch="Fill"/>
 
-        <!-- Nomes dos Dias -->
-        <Label Content="Domingo" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Segunda" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Terça" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Quarta" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Quinta" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Sexta" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Sábado" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-        <!-- Células do Calendário -->
-        <!-- Primeira Semana -->
-        <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="2" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="2" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="2" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-
-        <!-- Segunda Semana -->
-        <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="3" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="3" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="3" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-
-        <!-- Terceira Semana -->
-        <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="4" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="4" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="17" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="4" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="19" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="4" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-
-        <!-- Quarta Semana -->
-        <Border Grid.Row="5" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="21" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="5" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="23" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="5" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="5" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="25" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="5" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="26" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="5" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="27" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-
-        <!-- Quinta Semana -->
-        <Border Grid.Row="6" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="28" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="29" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="6" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <Border Grid.Row="6" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
-            <TextBlock Text="31" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
-        <!-- Células vazias para completar o grid -->
-        <Border Grid.Row="6" Grid.Column="4" BorderBrush="Black" BorderThickness="1"/>
-        <Border Grid.Row="6" Grid.Column="5" BorderBrush="Black" BorderThickness="1"/>
-        <Border Grid.Row="6" Grid.Column="6" BorderBrush="Black" BorderThickness="1"/>
         <Image Grid.Column="6" Margin="72,18,10,19" Source="/Assets/Hamburguer.png" Stretch="Fill"/>
-        <Image Grid.Column="1" Grid.ColumnSpan="6" Margin="37,14,106,15" Source="/Assets/Menu.png" Stretch="Fill"/>
-        <Image Grid.Column="1" Grid.ColumnSpan="6" Margin="37,14,106,15" Source="/Assets/Menu.png" Stretch="Fill"/>
-        <Image Margin="10,0,12,30" Source="/Assets/SEU ZÉ.png" Stretch="Fill"/>
-        <Image Margin="23,33,25,15" Source="/Assets/FIT CLUB.png" Stretch="Fill"/>
-        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Height="18" Width="56" Margin="49,18,0,0" Click="Button_Click"/>
+        <Image Margin="11,5,11,25" Source="/Assets/Seu_ze.png" Stretch="Fill"/>
+        <Image Margin="24,38,24,10" Source="/Assets/fit_club.png" Stretch="Fill"/>
+        <Button x:Name="aluno" Grid.Column="1" Content="ALUNOS" VerticalAlignment="Top" Height="29" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="88,12,69,0" Click="aluno_Click"/>
+        <Button x:Name="avaliacoes" Grid.Column="2" Content="AVALIAÇÕES" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="94" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="77,13,0,0" Click="avaliacoes_Click"/>
+        <Button x:Name="instrutores" Grid.Column="3" Content="INSTRUTORES" VerticalAlignment="Top" Height="28" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="72,13,42,0" Click="instrutores_Click"/>
+        <Button x:Name="aulas" Grid.Column="4" Content="AULAS" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="114" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" RenderTransformOrigin="1.201,0.609" Grid.ColumnSpan="2" Margin="72,13,0,0" Click="aulas_Click"/>
+
+        <ContentControl x:Name="MainContent" Grid.Row="2" Grid.ColumnSpan="7" Margin="10"/>
 
     </Grid>
 </Window>

@@ -10,23 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace AcademiaDoZe
 {
     /// <summary>
-    /// Lógica interna para CadastroAlunos.xaml
+    /// Interação lógica para CadastroAlunosControl.xam
     /// </summary>
-    public partial class CadastroAlunos : Window
+    public partial class CadastroAlunosControl : UserControl
     {
-        public CadastroAlunos()
+        public CadastroAlunosControl()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
- 
+            Console.Write("oi");
         }
     }
 }
