@@ -23,7 +23,6 @@ namespace AcademiaDoZe
 
         private void colaboradores_Click(object sender, RoutedEventArgs e)
         {
-            // Substitua pelo UserControl correspondente para instrutores
             MainContent.Content = new CadastroColaboradoresControl();
         }
 

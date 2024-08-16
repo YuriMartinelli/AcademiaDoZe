@@ -24,6 +24,7 @@ namespace AcademiaDoZe
         {
             InitializeComponent();
         }
+
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
             Console.Write("oi");
