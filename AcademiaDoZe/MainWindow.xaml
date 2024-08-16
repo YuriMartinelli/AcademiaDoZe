@@ -34,7 +34,7 @@
         <Image Margin="24,38,24,10" Source="/Assets/fit_club.png" Stretch="Fill"/>
         <Button x:Name="aluno" Grid.Column="1" Content="ALUNOS" VerticalAlignment="Top" Height="29" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="88,12,69,0" Click="aluno_Click"/>
         <Button x:Name="avaliacoes" Grid.Column="2" Content="AVALIAÇÕES" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="94" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="77,13,0,0" Click="avaliacoes_Click"/>
-        <Button x:Name="instrutores" Grid.Column="3" Content="INSTRUTORES" VerticalAlignment="Top" Height="28" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="72,13,42,0" Click="instrutores_Click"/>
+        <Button x:Name="instrutores" Grid.Column="3" Content="COLABORADORES" VerticalAlignment="Top" Height="28" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="72,13,42,0" Click="colaboradores_Click"/>
         <Button x:Name="aulas" Grid.Column="4" Content="AULAS" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="114" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14" FontWeight="Bold" RenderTransformOrigin="1.201,0.609" Grid.ColumnSpan="2" Margin="72,13,0,0" Click="aulas_Click"/>
 
         <ContentControl x:Name="MainContent" Grid.ColumnSpan="7" Margin="10,4,10,0" Grid.RowSpan="7" Grid.Row="1" Foreground="{x:Null}"/>

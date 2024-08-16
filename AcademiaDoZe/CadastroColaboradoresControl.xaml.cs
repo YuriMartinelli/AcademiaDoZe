@@ -16,13 +16,17 @@ using System.Windows.Shapes;
 namespace AcademiaDoZe
 {
     /// <summary>
-    /// Interação lógica para CadastrarIntrutoresControl.xam
+    /// Interação lógica para CadastroColaboradoresControl.xam
     /// </summary>
-    public partial class CadastrarIntrutoresControl : Page
+    public partial class CadastroColaboradoresControl : UserControl
     {
-        public CadastrarIntrutoresControl()
+        public CadastroColaboradoresControl()
         {
             InitializeComponent();
+        }
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            Console.Write("oi");
         }
     }
 }
