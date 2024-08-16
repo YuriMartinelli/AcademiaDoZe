@@ -21,10 +21,10 @@ namespace AcademiaDoZe
             // MainContent.Content = new AvaliacoesControl();
         }
 
-        private void instrutores_Click(object sender, RoutedEventArgs e)
+        private void colaboradores_Click(object sender, RoutedEventArgs e)
         {
             // Substitua pelo UserControl correspondente para instrutores
-            // MainContent.Content = new InstrutoresControl();
+            MainContent.Content = new CadastroColaboradoresControl();
         }
 
         private void aulas_Click(object sender, RoutedEventArgs e)
